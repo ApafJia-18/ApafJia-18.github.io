@@ -13,31 +13,82 @@ body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222}
 nav a{color:#fff;text-decoration:none;margin:0 16px;font-size:15px;transition:.3s}nav a:hover{color:#ffbf00}
 .contact{background:#fff;padding:12px 24px;border-radius:30px}
 .hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:40px 0}
-.hero-text{animation:fadeLeft 1s}.hero-text small{display:inline-block;border:2px solid #ffbf00;padding:8px 14px;border-radius:8px;margin-bottom:18px}.hero-text h1{font-size:45px;line-height:1.1}.hero-text h1 span{color:#ffbf00}.hero-text h2{font-size:30px}.hero-text p{margin:18px 0;color:#555;max-width:520px}.btns{display:flex;gap:16px;margin-top:25px}.btn{padding:14px 26px;border-radius:30px;border:none;cursor:pointer}.primary{background:#1f4d2e;color:#fff}.secondary{background:#fff;border:1px solid #111}
+.hero-text{animation:fadeLeft 1s}.hero-text small{display:inline-block;border:2px solid #ffbf00;padding:8px 14px;border-radius:8px;margin-bottom:18px}.hero-text h1{font-size:45px;line-height:1.1}.hero-text h1 span{color:#ffbf00}.hero-text h2{font-size:30px}.hero-text p{margin:18px 0;color:#555;max-width:520px; text-align: justify;}.btns{display:flex;gap:16px;margin-top:25px}.btn{padding:14px 26px;border-radius:30px;border:none;cursor:pointer}.primary{background:#1f4d2e;color:#fff}.secondary{background:#fff;border:1px solid #111}
 .hero-image{position:relative;display:flex;justify-content:center;animation:fadeRight 1s}.circle{width:340px;height:340px;background:#ffbf00;border-radius:50%;position:absolute;top:30px}
 .photo{width:320px;height:420px;background:#ddd;border-radius:20px;position:relative;z-index:2;box-shadow:0 15px 30px rgba(0,0,0,.1)}
 .marquee{margin:30px 0;background:#ffbf00;color:#111;padding:18px;font-weight:bold;overflow:hidden;white-space:nowrap}.marquee span{display:inline-block;animation:slide 10s linear infinite}
 .services{padding:60px 0}
 .title{font-size:42px;margin-bottom:30px}.title span{color:#ffbf00;font-style:italic}.art{font-size:28px; padding: 20px; text-align: center; font-weight:bold;}
+.service{padding:20px 100px 50px 100px; text-align: justify;}
+.ref{font-size:42px;margin:30px;text-align: center;}.ref h3{padding:0 0 10px 0;}.ref span{color:#ffbf00;font-style:italic; ;} 
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}.card{background:#fff; height: 200px;padding:28px;border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card:hover{transform:translateY(-8px)}.card h3{margin:12px 0}
 .btn-download{  display:inline-block;margin-top: 20px; padding:10px 24px;  background:#1f4d2e;  color:#fff;  border-radius:30px;  text-decoration:none;  font-weight:600;  transition:0.3s;}.btn-download:hover{  background:#f4b400;  color:#111;}
 .cards1{display:grid;(1,1fr); gap:32px;}.card1{margin: 0 auto;background:#fff;width: 500px; height: 400px; padding: 28px; border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card1:hover{transform:translateY(-8px)}.card1 h3{margin:12px 0}
 .cards2{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;}.card2{background:#fff;height: 200px;padding:28px;border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card2:hover{transform:translateY(-8px)}.card2 h3{margin:12px 0}
-.about{background:#1f4d2e;color:#fff;padding:70px 50px;border-radius:0;display:grid;grid-template-columns:1fr 1fr;gap:-40px;align-items:center}.about-img{width:320px;height:320px;background:#ffbf00; border-radius:50%;margin:auto;animation:float 4s ease-in-out infinite}.about h2{font-size:48px}.about h2 span{color:#ffbf00; padding-right: 80px;}.stats{display:flex;gap:30px;margin:24px 0}.stats div strong{font-size:32px;color:#ffbf00;display:block}
+.model{background:#1f4d2e;color:#fff;padding:70px 50px;border-radius:0;display:grid;grid-template-columns:1fr 1fr;gap:-40px;align-items:center}.model h2{font-size:48px}.model h2 span{color:#ffbf00; padding-right: 80px;}	.model p{text-align: justify; padding-right: 80px;}
+.model-img{width:320px;height:320px;background:#ffbf00; border-radius:50%; animation:float 4s ease-in-out infinite}.
+.stats{display:flex;gap:30px;margin:24px 0}.stats div strong{font-size:32px;color:#ffbf00;display:block}
+.about{background:#1f4d2e;color:#fff;padding:70px 50px;border-radius:0;display:grid;grid-template-columns:1fr 1fr;gap:-40px;align-items:center} .about p{text-align: justify; padding-right: 80px;} .about h2{padding-bottom: 20px}
+.about-img{width:280px;height:280px; border-radius:50%;margin:auto; animation:float 4s ease-in-out infinite}
+.about-img img{width:320px;height:320px;background:#ffbf00; border-radius:50%;margin:auto; animation:float 4s ease-in-out infinite}
+.about h2{font-size:48px}.about h2 span{color:#ffbf00; padding-right: 80px;}.stats{display:flex;gap:30px;margin:24px 0}.stats div strong{font-size:32px;color:#ffbf00;display:block}
 @keyframes fadeDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeLeft{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:translateX(0)}}
 @keyframes fadeRight{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:translateX(0)}}
 @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
 @media(max-width:900px){.hero,.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero-text h1{font-size:42px}.navbar{flex-direction:column;gap:15px}}
+.footer{
+  background:#1f4d2e;
+  color:#fff;
+  padding:60px 8% 20px;
+  margin-top:80px;
+}
+
+.footer-container{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:40px;
+}
+
+.footer h2,.footer h3{
+  margin-bottom:18px;
+}
+
+.footer p,.footer a{
+  color:#ddd;
+  text-decoration:none;
+  display:block;
+  margin-bottom:10px;
+  transition:.3s;
+}
+
+.footer a:hover{
+  color:#ffbf00;
+  transform:translateX(5px);
+}
+
+.copyright{
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,.15);
+  margin-top:40px;
+  padding-top:20px;
+  color:#bbb;
+}
+
+@media(max-width:768px){
+  .footer-container{
+    grid-template-columns:1fr;
+  }
+}
 </style>
 </head>
 
 <body>
-<div class='container'>
+<div id="beranda" class='container'>
 <header class='navbar'>
 <div class='logo'><span>E-</span>Portofolio</div>
-<nav><a href='#id'>Beranda</a><a href='#profil'>Tentang Saya</a><a href='#artefak'>Artefak</a><a href='#'>Refleksi</a></nav>
+<nav><a href='#beranda'>Beranda</a><a href='#profil'>Tentang Saya</a><a href='#artefak'>Artefak</a><a href='#Misi'>Misi</a><a href='#refleksi'>Refleksi</a></nav>
 <div></div>
 </header>
 <section id="profil" class='hero'>
@@ -60,25 +111,87 @@ transformasi orang lain. Tujuan saya menjadi guru yakni ikut serta dalam memajuk
 
 <div class='card'><h3>Modul Pembelajaran</h3><p>Modul Pembelajaran terdiri dari tiga siklus atau tiga pertemuan.</p><a href="modul.html" class="btn-download">Buka</a></div>
 
-<div class='card'><h3>Bahan Ajar </h3><p>Bahan ajar informatika untuk kelas X SMK.</p><a href="https://docs.google.com/document/d/1pka4XYdDo2AP3SdV_cvtZqy307pWn_bD/edit?rtpof=true&tab=t.0" class="btn-download">Buka</a>
-<a href="https://docs.google.com/document/d/1pka4XYdDo2AP3SdV_cvtZqy307pWn_bD/export?format=pdf" download="Modul Ajar Siklus 1" class="btn-download">Download</a></div>
+<div class='card'><h3>Bahan Ajar </h3><p>Bahan ajar informatika untuk kelas X SMK sebagai penunjang pembelajaran.</p><a href="bahanajar.html" class="btn-download">Buka</a></div>
 
-<div class='card'><h3>Media Pembelajaran</h3><p>Media pembelajaran sebagai penunjang kegiatan pembelajaran sebagai pegangan guru dan siswa.</p>
+<div class='card'><h3>Media Pembelajaran</h3><p>Media pembelajaran sebagai penunjang kegiatan pembelajaran siswa.</p>
 <a href="media.html" class="btn-download">Buka</a>
 </div>
 
-<div class='card'><h3>Penilaian GP/ DPL</h3><p>Penilaian dilakukan untuk mengetahui tingkat pemahaman mahasiswa PPG Prajabatan dalam menyusun RPP/ Modul ajar serta praktik mengajar.</p></div>
-<div class='card'><h3>Hasil Kerja Siswa</h3><p>Contoh pekerjaan siswa berupa LKPD yang telah dirancang oleh guru sebagai salah satu bentuk asesmen.</p></div>
-<div class='card'><h3>Dokumentasi</h3><p>Dokumentasi selama kegiatan pembelajaran berlangsung yang sesuai dengan modul ajar yang telah disusun.</p></div>
+<div class='card'><h3>Penilaian GP/ DPL</h3><p>Penilaian dilakukan untuk mengetahui tingkat pemahaman mahasiswa dalam menyusun RPP/ Modul ajar serta praktik mengajar.</p>
+<a href="penilaian.html" class="btn-download">Buka</a>
+</div>
+
+<div class='card'><h3>Hasil Kerja Siswa</h3><p>Contoh pekerjaan siswa berupa LKPD yang telah dirancang oleh guru sebagai salah satu bentuk asesmen.</p>
+<a href="lkpd.html" class="btn-download">Buka</a>
+</div>
+
+<div class='card'><h3>Dokumentasi</h3><p>Dokumentasi selama kegiatan pembelajaran berlangsung yang sesuai dengan modul ajar yang telah disusun.</p>
+<a href="dok.html" class="btn-download">Buka</a>
+</div>
 </div>
 </section>
-<section class='about'>
-<div class='about-img'></div>
+<section id="Misi" class='about'>
+<div class='about-img'><img src='siswa 2.jpeg'></div>
 <div>
-<h2>Model Guru <span>Yang Dituju</span></h2>
-<p>Guru masa depan yang berfokus pada teknologi pendidikan, kreativitas, dan pembelajaran bermakna.</p>
+<h2>Misi <span>Saya</span></h2>
+<p>Misi yang ingin saya capai sebagai seorang calon guru profesional adalah menjadi pendidik yang mampu membangun rasa ingin tahu siswa. Untuk mencapai hal tersebut saya akan berusaha memberikan pembelajaran berkualitas, inovatif, dan berpusat pada kebutuhan siswa. Saya berkomitmen untuk membantu mengembangkan potensi siswa untuk menemukan jati diri terbaiknya. Saya akan terus meningkatkan kompetensi pedagogik, profesional, sosial, dan kepribadian melalui belajar sepanjang hayat, pelatihan, serta refleksi diri.</p>
 </div>
 </section>
+
+<section class='service'>
+<h2 id="refleksi" class='ref'><span>Refleksi</span> Diri</h2>
+<p><h2>Refleksi Pedagogis</h2>
+	<br>
+Selama PPG, saya memahami bahwa pembelajaran harus berpusat pada peserta didik. Guru tidak hanya menyampaikan materi, tetapi juga membimbing siswa agar aktif, kritis, dan mampu memahami konsep dengan baik. Saya belajar menyusun tujuan pembelajaran, memilih metode yang tepat, serta melakukan evaluasi yang sesuai.</p>
+--------
+<p><h2>Refleksi Pengembangan Produk Pembelajaran</h2>
+	<br>
+Saya memperoleh pengalaman dalam menyusun modul ajar, LKPD, media pembelajaran, dan instrumen asesmen. Kegiatan ini melatih kreativitas saya dalam membuat pembelajaran yang menarik, inovatif, dan sesuai kebutuhan peserta didik.</p>
+--------
+<p><h2>Refleksi Pengelolaan Kelas</h2>
+	<br>
+Saya belajar bahwa kelas yang kondusif sangat berpengaruh terhadap keberhasilan pembelajaran. Saya berlatih mengatur waktu, menciptakan suasana nyaman, membangun komunikasi positif, serta menanamkan disiplin kepada siswa.</p>
+--------
+<p><h2>Tantangan Diri</h2>
+	<br>
+Tantangan yang saya hadapi antara lain banyaknya tugas, manajemen waktu, serta menyesuaikan diri dengan karakter siswa yang beragam. Namun, tantangan tersebut melatih saya menjadi lebih sabar, disiplin, dan bertanggung jawab.</p>
+--------
+<p><h2>Pengembangan Diri</h2>
+	<br>
+	PPG membuat saya semakin sadar bahwa guru profesional harus terus belajar dan berkembang. Saya termotivasi untuk meningkatkan kompetensi pedagogik, profesional, sosial, dan kepribadian secara berkelanjutan.</p>
+--------
+</section>
+	<footer class="footer">
+   <div class="footer-container">
+
+      <div class="footer-logo">
+         <h2>PPG Portfolio</h2>
+         <p>Membangun masa depan pendidikan dengan kreativitas dan inovasi.</p>
+      </div>
+
+      <div class="footer-menu">
+         <h3>Menu</h3>
+         <a href='#beranda'>Beranda</a>
+         <a href='#profil'>Tentang Saya</a>
+         <a href='#artefak'>Artefak</a>
+         <a href='#Misi'>Misi</a>
+         <a href='#refleksi'>Refleksi</a>
+      </div>
+
+      <div class="footer-contact">
+         <h3>Contact</h3>
+         <p>Email: apafnur.218@gmail.com</p>
+         <a href="https://www.instagram.com/jiahahaha.18?igsh=aTc1NHh6MWhlNTJv"><p>Instagram: @Jiahahaha.18</p></a>
+         <a href="www.linkedin.com/in/apaf-nur-fauzia-7aa589296"><p>LinkedIn: Apaf Nur Fauzia</p></a>
+      </div>
+
+   </div>
+
+   <div class="copyright">
+      © 2026 PPG Prajabatan | All Rights Reserved
+   </div>
+</footer>
+
 </div>
 </body>
 </html>
